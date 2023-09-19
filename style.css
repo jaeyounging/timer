@@ -1,0 +1,96 @@
+/* reset */
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* css */
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(
+      --gradient2,
+      radial-gradient(293.21% 130.49% at 3.59% 5.28%, #f0f4ff 0%, #a5b6ee 100%)
+    )
+    no-repeat;
+  color: #fff;
+  font-family: Pretendard;
+}
+
+h1 {
+  margin-top: 72px;
+}
+
+.container {
+  width: 400px;
+  height: 360px;
+  margin-top: 60px;
+  border-radius: 16px;
+  background: var(--gradient, linear-gradient(144deg, #5572bb 2.13%, #374b7c 102.97%));
+  box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+}
+
+h2 {
+  margin: 48px auto 0;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.line {
+  width: 312px;
+  height: 1px;
+  margin: 23px auto;
+  background: #3d538a;
+}
+
+.count {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  color: var(--light, #a5b6ee);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+p {
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.dot {
+  width: 6px;
+  height: 26px;
+  flex-shrink: 0;
+  margin-top: 47px;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+[class$="btn"] {
+  width: 112px;
+  height: 48px;
+  margin: 0 6px;
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.start-btn {
+  background: #5180ff;
+}
+
+.reset-btn {
+  background: #fb7099;
+}
